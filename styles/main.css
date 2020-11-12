@@ -1,0 +1,18 @@
+body {
+    background-image: url("../images/ron.jpg");
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    color: black;
+    padding: 3em;
+    font-size: 32px;
+    overflow-wrap: normal;
+    width: 320px;
+}
+
+footer > span {
+    background-color: lightgray;
+    padding: 0.5em 0.5em;
+}
