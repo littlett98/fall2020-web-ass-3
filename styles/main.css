@@ -1,19 +1,49 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-image: url("../images/ron.jpg");
-    max-width: 100%;
-    height: auto;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0px;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer { 
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
 }
 
 article {
+    color: burlywood;
     padding: 3em;
     font: Arial;
     font-size: 32px;
     overflow-wrap: normal;
-    width: 320px;
+    width: 420px;
+    height: 200px;
 }
 
 #quote-ok {
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
 }
 
 #quote-bad {
@@ -22,7 +52,20 @@ article {
     font-style: italic;
 }
 
-footer > span {
-    background-color: lightgray;
-    padding: 0.5em 0.5em;
+footer > p {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+
+#quote-button {
+    background-color: lightblue;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 240px;
+    padding: 5px 20px;
+}
+
+#quote-button:hover {
+    cursor: pointer;
 }
