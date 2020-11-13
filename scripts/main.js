@@ -62,7 +62,7 @@ function removeOldQuote() {
  */
 function addQuoteError() {
     removeOldQuote();
-    let text = document.createTextNode("Error");
+    let text = document.createTextNode("Error retrieving quote, please try again");
     article.appendChild(text);
     article.setAttribute("id", "quote-bad");
 }

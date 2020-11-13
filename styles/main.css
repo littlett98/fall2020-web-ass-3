@@ -32,24 +32,25 @@ footer {
 }
 
 article {
-    color: burlywood;
     padding: 3em;
-    font: Arial;
     font-size: 32px;
     overflow-wrap: normal;
     width: 420px;
-    height: 200px;
+    height: 320px;
 }
 
 #quote-ok {
     color: white;
     text-shadow: 2px 2px 2px #000;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #quote-bad {
     color: red;
     font-weight: 1000;
     font-style: italic;
+    font-family: 'Tangerine', serif;
+    text-shadow: 2px 2px 2px #000;
 }
 
 footer > p {
